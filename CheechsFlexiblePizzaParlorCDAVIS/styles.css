@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-image: url("greek.png");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+fieldset {
+  padding: 10px;
+  margin: 30px;
+  border-style: none;
+  background-color: tan;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+  padding: 15px;
+  align-items: center;
+}
+
+column2 {
+  background-color: grey;
+}
+
+column1 {
+  background-color: lightgrey;
+}
+
+input {
+  height: 34px;
+  text-align: center;
+  display: block;
+  width: 500px;
+}
+
+p {
+  font-size: 34px;
+}
+
+.social {
+  color: grey;
+  font-size: 50px;
+}
+
+.Dropdown {
+  text-align: center;
+  width: 500px;
+}
+
+.Footer p {
+  font-size: 20px;
+  text-align: center;
+}
+
+nav img {
+  width: 100%;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: red;
+  font-size: 30px;
+}
+
+nav li {
+  padding: 12px;
+}
+
+.column img {
+  border-radius: 40px;
+  width: 500px;
+  height: 500px;
+  flex-direction: row;
+}
+.barnav{
+  display: flex;
+  flex-wrap: wrap;
+}
+.navitem{
+  flex: 25%;
+}
+@media screen and (max-width: 568px) {
+  .row {
+    width: 100%;
+  }
+  .barnav{
+    flex-direction: column;
+  }
+  .navitem{
+flex: 100%
+  }
+}
